@@ -20,7 +20,7 @@ html, body {
   height: 640px;
   background-color: #fff;
   overflow-y: scroll; /* Enable vertical scrolling */
-  border: 2px solid #757575; /* Add border here */
+ /* Add border here */
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
 }
