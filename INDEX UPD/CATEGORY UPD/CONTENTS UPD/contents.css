@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#Android_Mobile__12 {
+  width: 360px;
+  height: 640px;
+  background-color: #fff;
+  overflow-y: auto; /* Enable vertical scrolling without scrollbar */
+  border: 2px solid #757575; /* Add border */
+  position: relative; /* Ensure contained positioning for child elements */
+}
+
+#Android_Mobile__12::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Safari and Chrome */
+}
+
+#Mask_Group_2 img {
+  width: 100%;
+  height: auto;
+}
+
+#Request_Raised {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(52, 58, 64, 1);
+}
+
+#employee-name-container {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  font-size: 15px;
+  color: rgba(52, 58, 64, 1);
+  text-align: right;
+}
+
+#Fill_the_field_only_if_you_wan {
+  position: absolute;
+  top: 210px;
+  left: 50px;
+  font-size: 10px;
+  color: rgba(52, 58, 64, 1);
+
+}
+
+#Category {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(52, 58, 64, 1);
+}
+
+#topic-container {
+  top: 140px;
+  left: 70px;
+  position: absolute;
+  align-items: center;
+  padding: 10px;
+}
+
+#category-container {
+  top: 170px;
+  left: 80px;
+  position: absolute;
+  align-items: center;
+  padding: 10px;
+ /* Adjust based on header height */
+}
+
+#loading-text {
+  top: 240px;
+  left: 125px;
+  position: absolute;
+  align-items: center;
+  padding: 10px;
+}
+
+
+
+#contents-container {
+  padding: 20px;
+  margin-top: 70px; /* Adjust based on header height */
+}
+
+#additional-fields {
+  margin: 10px 0; /* Add margin to separate from the container border */
+}
+
+.content-box {
+  background-color: rgba(242, 242, 242, 1);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.content-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(52, 58, 64, 1);
+  margin-bottom: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#enter_value,
+#machine-number,
+#observations {
+  width: calc(100% - 40px); /* Add padding inside the input fields */
+  padding: 10px; /* Added padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 10px; /* Added margin-bottom */
+}
+
+#submit-request {
+  width: 80%;
+  padding: 10px;
+  background-color: rgba(255, 214, 90, 1);
+  border: none;
+  border-radius: 18.5px;
+  font-size: 14px;
+  color: rgba(52, 58, 64, 1);
+  cursor: pointer;
+  margin: 20px auto; /* Added margin and center alignment */
+  display: block; /* Center alignment */
+}
