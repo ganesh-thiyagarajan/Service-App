@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#Android_Mobile__12 {
+  width: 360px;
+  height: 640px;
+  background-color: #fff;
+  overflow-y: auto; /* Enable vertical scrolling without scrollbar */
+  border: 2px solid #757575; /* Add border */
+  position: relative; /* Ensure contained positioning for child elements */
+}
+
+#Android_Mobile__12::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Safari and Chrome */
+}
+
+#Mask_Group_2 img {
+  width: 100%;
+  height: auto;
+}
+
+#Request_Raised {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(52, 58, 64, 1);
+}
+
+#employee-name-container {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  font-size: 15px;
+  color: rgba(52, 58, 64, 1);
+  text-align: right;
+}
+
+.translate-element {
+  position: absolute;
+  top: 10px; /* Adjust the top value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* Ensure it is above other elements */
+}
+
+
+.goog-te-combo {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#Fill_the_field_only_if_you_wan {
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: rgba(52, 58, 64, 1);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#Category {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(52, 58, 64, 1);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#topic-container {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#category-container {
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#loading-text {
+  position: absolute;
+  top: 240px;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#contents-container {
+  padding: 20px;
+  margin-top: 70px; /* Adjust based on header height */
+}
+
+#additional-fields {
+  margin: 10px 0; /* Add margin to separate from the container border */
+}
+
+.content-box {
+  background-color: rgba(242, 242, 242, 1);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: 10px; /* Add margin to the left */
+  margin-right: 10px; /* Add margin to the right */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Ensure elements stay within the box */
+}
+
+.list-content-container {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 60px); /* Adjust based on the size of the thumbnail */
+}
+
+.content-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(52, 58, 64, 1);
+  margin-bottom: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  justify-content: flex-start; /* Align checkboxes and fields to the left */
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping of checkboxes and fields */
+  gap: 10px; /* Space between checkboxes and fields */
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Space between label and input */
+}
+
+.checkbox-group input[type="text"] {
+  margin-left: 10px; /* Space between text input and checkboxes */
+  flex: 1 1 auto; /* Ensure the text input fits within the container */
+}
+
+#enter_value,
+#machine-number,
+#observations {
+  width: 100%;
+  padding: 10px; /* Added padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px; /* Added margin-bottom */
+}
+
+#submit-request {
+  width: 80%;
+  padding: 10px;
+  background-color: rgba(255, 214, 90, 1);
+  border: none;
+  border-radius: 18.5px;
+  font-size: 14px;
+  color: rgba(52, 58, 64, 1);
+  cursor: pointer;
+  margin: 20px auto; /* Added margin and center alignment */
+  display: block; /* Center alignment */
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50px; /* Fixed width for the container */
+}
+
+.thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 10px; /* Space between thumbnail and content */
+}
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.image-modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.expanded-image {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
